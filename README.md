@@ -44,6 +44,7 @@ IMAGE-RETRIEVAL/
 │   └── similarity.py
 ├── .gitignore
 ├── LICENSE
+├── README.md
 ├── main.py
 ├── requirements.txt
 └── sonar-project.properties
@@ -79,7 +80,9 @@ IMAGE-RETRIEVAL/
 - **Correlation Coefficient**:
 ![alt text](assets/demo_images/Orange_easy_correlation_coefficient_result.png)
 3. For advanced methods, refer to the Jupyter notebooks in the `notebooks/` directory.
-
+   Examples:
+- **Vector Database with Cosine Similarity**:
+![alt text](assets/demo_images/CLIP.png)
 ## Contributing
 
 Contributions are welcome. Please fork the repository and submit a pull request with your changes.
