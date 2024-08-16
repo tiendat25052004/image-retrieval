@@ -6,7 +6,7 @@ from source.retrieval import get_l1_score, get_l2_score, get_cosine_similarity_s
 
 def query_images(query_path, get_similarity, method_name, reverse=False):
     query_path = os.path.join(config.TEST_DIR, query_path)
-    query, ls_path_score = get_similarity(
+    _, ls_path_score = get_similarity(
         config.TRAIN_DIR, query_path, config.IMAGE_SIZE)
     plot_results(query_path, ls_path_score, reverse=reverse,
                  save=True, filename=method_name)
