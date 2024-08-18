@@ -58,15 +58,14 @@ IMAGE-RETRIEVAL/
    cd image-retrieval
    ```
 
-2. Install dependencies:
+2. Install necessary libraries:
    ```
    pip install -r requirements.txt
    ```
 
 ## Usage
 
-1. Configure the system in `source/config.py`.
-2. Run the main script:
+Run the main script:
    ```
    python main.py
    ```
